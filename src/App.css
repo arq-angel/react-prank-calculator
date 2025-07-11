@@ -164,7 +164,7 @@ body {
 /* CSS end */
 
 .prank {
-  background: red;
+  background: rgb(255, 157, 0);
   color: white;
   animation: shake 0.5s;
 }
