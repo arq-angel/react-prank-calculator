@@ -18,7 +18,6 @@ const App = () => {
   useEffect(() => {
     !isEventAttached.current &&
       window.addEventListener("keydown", (e) => {
-        console.log(e);
         const value = e.key;
         if (e.code.includes("Key")) {
           return;
